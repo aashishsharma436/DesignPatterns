@@ -3,14 +3,14 @@ package com.Designpattern.Creational.Prototype;
 /*
 Components
 1. Prototype Interface or Abstract class:
-    ->  This defines the method of cloning objects and sets a standard that all concrete prototypes must follow. Its main purpose is
+    -> This defines the method of cloning objects and sets a standard that all concrete prototypes must follow. Its main purpose is
         to serve as a blueprint for creating new Objects by outlining the cloning contract.
-    ->  It includes a clone method that concrete prototypes will implement to create copies of themselves.
+    -> It includes a clone method that concrete prototypes will implement to create copies of themselves.
 
 2. Concrete Prototype:
-    ->  This class implements the prototype interface or extends ths abstract class. It represents a specific types of Object that
+    -> This class implements the prototype interface or extends ths abstract class. It represents a specific types of Object that
         can be cloned.
-    ->  This concrete prototype details how the cloning process should work for instances of that class and provides the specific
+    -> This concrete prototype details how the cloning process should work for instances of that class and provides the specific
         logic for the clone method.
 
 3. Client:
